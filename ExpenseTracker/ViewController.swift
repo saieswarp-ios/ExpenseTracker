@@ -227,15 +227,19 @@ class ViewController: UIViewController {
             "🏷️ Categories: \(categories.count)"
     }
 
-    func iconForCategory(
-        _ category: String
-    ) -> String {
+    func iconForCategory(_ category: String) -> String {
 
-        switch category.lowercased() {
+        let cleanedCategory =
+            category
+            .trimmingCharacters(
+                in: .whitespacesAndNewlines
+            )
+            .lowercased()
+
+        switch cleanedCategory {
 
         case "food":
             return "🍔"
-     
 
         case "travel":
             return "🚗"
@@ -245,8 +249,10 @@ class ViewController: UIViewController {
 
         case "entertainment":
             return "🎬"
-        case "medical" :
+
+        case "medical":
             return "🏥"
+
         case "education":
             return "📚"
 
@@ -361,7 +367,9 @@ extension ViewController: UITableViewDataSource {
     }
 }
 extension ViewController: UISearchBarDelegate {
-
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+    }
     func searchBar(
         _ searchBar: UISearchBar,
         textDidChange searchText: String
