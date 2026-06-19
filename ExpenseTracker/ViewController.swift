@@ -57,7 +57,8 @@ class ViewController: UIViewController {
 
         summaryCard.layer.shadowOffset =
             CGSize(width: 0, height: 5)
-        // Text Colors
+     
+        
 
         totalLabel.textColor = .white
 
