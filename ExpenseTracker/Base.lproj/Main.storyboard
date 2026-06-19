@@ -91,16 +91,15 @@
                             <constraint firstAttribute="trailing" secondItem="if6-vE-Q6P" secondAttribute="trailing" id="1BM-ue-5Eb"/>
                             <constraint firstItem="Tmy-qn-iVI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Ny-or-JWK"/>
                             <constraint firstItem="BN0-uD-mUN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="3CJ-ML-Y4Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0w3-Vo-0We" secondAttribute="trailing" constant="39" id="7F7-e8-9j9"/>
                             <constraint firstItem="gcZ-92-Ouk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="C95-bW-Wt2"/>
                             <constraint firstItem="BN0-uD-mUN" firstAttribute="top" secondItem="if6-vE-Q6P" secondAttribute="bottom" constant="7" id="CmC-Uu-63O"/>
                             <constraint firstItem="Tmy-qn-iVI" firstAttribute="top" secondItem="BN0-uD-mUN" secondAttribute="bottom" id="JuV-3m-YPb"/>
                             <constraint firstItem="gcZ-92-Ouk" firstAttribute="top" secondItem="Tmy-qn-iVI" secondAttribute="bottom" constant="8" id="Md9-lR-ZWj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0w3-Vo-0We" secondAttribute="trailing" constant="23" id="YJP-qw-kMd"/>
+                            <constraint firstItem="0w3-Vo-0We" firstAttribute="top" secondItem="if6-vE-Q6P" secondAttribute="bottom" constant="7" id="P0J-jZ-toh"/>
                             <constraint firstItem="if6-vE-Q6P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cJK-Z8-ziG"/>
                             <constraint firstItem="if6-vE-Q6P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pcc-31-bDW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gcZ-92-Ouk" secondAttribute="bottom" id="rsD-wc-YRX"/>
-                            <constraint firstItem="0w3-Vo-0We" firstAttribute="leading" secondItem="BN0-uD-mUN" secondAttribute="trailing" constant="87" id="v89-oV-cJ8"/>
-                            <constraint firstItem="0w3-Vo-0We" firstAttribute="top" secondItem="if6-vE-Q6P" secondAttribute="bottom" constant="7" id="vCD-Z4-LlR"/>
                             <constraint firstAttribute="trailing" secondItem="Tmy-qn-iVI" secondAttribute="trailing" id="vkB-37-sit"/>
                             <constraint firstItem="gcZ-92-Ouk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xgb-bd-wZk"/>
                         </constraints>
